@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14899959100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Purchase a product",
+        "description": "",
+        "id": "select-an-item-and-proceed-till-checkout;purchase-a-product",
+        "after": [
+          {
+            "result": {
+              "duration": 23700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 606437200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "ResultSteps.i_am_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 593773000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select shop by department tab",
+            "match": {
+              "location": "ResultSteps.i_select_shop_by_department_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7123548701,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigate to Movies, TV \u0026 Games \u003e PC \u0026 Video Games",
+            "match": {
+              "location": "ResultSteps.navigate_to_Movies_TV_Games_PC_Video_Games()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8794112300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I search for \"Nintendo Switch Neon Red/ Neon Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nintendo Switch Neon Red/ Neon Blue",
+                  "offset": 14
+                }
+              ],
+              "location": "ResultSteps.i_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14265688400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select the product and add it to trolley",
+            "match": {
+              "location": "ResultSteps.i_select_the_product_and_add_it_to_trolley()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3362313500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I will be diverted to check out page,where i can see the number of item selected and the total amount",
+            "match": {
+              "location": "ResultSteps.i_will_be_diverted_to_check_out_page_where_i_can_see_the_number_of_item_selected_and_the_total_amount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "Select an item and proceed till checkout",
+    "description": "As a user\r\nI want to search for a product\r\nSo I can purchase it",
+    "id": "select-an-item-and-proceed-till-checkout",
+    "keyword": "Feature",
+    "uri": "shop.feature"
+  }
+]
